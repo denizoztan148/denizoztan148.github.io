@@ -1,58 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Over mij</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-primary bg-opacity-50">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../toets/index.html"><img src="../denizoztan148.github.io/img/logo.png" alt="logo" class="w-25 text-white">Portfolio</a>
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link text-white fw-bold" href="../denizoztan148.github.io/index.html">Homepage</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white fw-bold" href="../denizoztan148.github.io/projects.html">Projecten</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white fw-bold" href="../denizoztan148.github.io/contact.html">Contact</a>
-                    </li>
-                </ul>
+                <a class="navbar-brand text-white fw-bold" href="index.html"><img src="../denizoztan148.github.io/img/logo.png" alt="logo" width="50">Portfolio</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bold" href="index.html">Homepage</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bold" href="projects.html">Projecten</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white fw-bold" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
 
     <main>
-        <div class="row container fluid">
-            <h1 class="text-primary text-center fw-bold">Over mij</h1>
-        </div>
+        <div class="container-fluid">
+            <div class="row mt-4">
+                <div class="col-12">
+                    <h1 class="text-primary text-center fw-bold">Over mij</h1>
+                </div>
+            </div>
 
-        <div class="row container fluid">
-            <div class="col-md-6">
-                <img src="../denizoztan148.github.io/img/roc.png" alt="roc mondriaan logo">
-            </div>
-            <div class="col-md-6 text center">
-                <h2 class="text-primary text-center fw-bold">Wie ben ik?</h2>
-                <p>Ik ben Deniz Öztan en ik doe het opleiding Software Development in ROC Mondriaan.
-                    Ik ben 18 en ik kom uit Turkije. Mijn hobby’s zijn gamen, schrijven, lezen,
-                    volleyball spelen, muziek luisteren en films kijken.</p>
-            </div>
-        </div>
+            <div class="row align-items-center mt-4">
+                <div class="col-md-6">
+                    <img src="../denizoztan148.github.io/img/roc.png"
+                         alt="ROC Mondriaan"
+                         class="img-fluid">
+                </div>
 
-        <div class="row container fluid">
-            <div class="col-md-6 text center">
-                <h2 class="text-primary text-center fw-bold">Waarom heb ik voor deze opleiding gekozen?</h2>
-                <p> Want, mijn vader is een software engineer en ik wilde zoals hem zijn toen ik een kind was
-                    en ik vind het ook leuk en interessant om websites te bouwen.</p>
+                <div class="col-md-6 text-center">
+                    <h2 class="text-primary fw-bold">Wie ben ik?</h2>
+
+                    <p>
+                        Ik ben Deniz Öztan en ik doe de opleiding Software Development
+                        op ROC Mondriaan. Ik ben 18 jaar oud en ik kom uit Turkije.
+                        Mijn hobby’s zijn gamen, schrijven, lezen, volleyballen,
+                        muziek luisteren en films kijken.
+                    </p>
+                </div>
             </div>
-            <div class="col-md-6">
-                <img src="../denizoztan148.github.io/img/software.png" alt="roc mondriaan logo">
+
+            <div class="row align-items-center mt-5">
+                <div class="col-md-6 text-center">
+                    <h2 class="text-primary fw-bold">
+                        Waarom heb ik voor deze opleiding gekozen?
+                    </h2>
+
+                    <p>
+                        Mijn vader is software engineer en toen ik jong was wilde ik
+                        net zoals hem worden. Daarnaast vind ik het leuk en interessant
+                        om websites te bouwen.
+                    </p>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="../denizoztan148.github.io/img/software.png"
+                         alt="Software"
+                         class="img-fluid">
+                </div>
             </div>
         </div>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
